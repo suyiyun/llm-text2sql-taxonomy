@@ -13,6 +13,7 @@ This repository is organized around those two contributions:
 | `leaderboard/` | Python harness for the autonomy-axis leaderboard aggregation — collects and organizes metrics that systems' authors report on Spider, BIRD, and Spider 2.0. *(placeholder — to be filled in)* |
 | `case_study_spider_cot/` | Full pipeline for the empirical case study: Spider preprocessing, DeepSeek V3-generated CoT rationales, LoRA fine-tuning (Qwen3-8B / LLaMA-3.1-8B) with CoT vs. No-CoT ablation, and comparison against DeepSeek V3 / GLM-4 3-shot baselines |
 | `docs/` | Supplementary write-up material (dataset statistics, paper outline) |
+| `papers/` | PDFs: `benchmark.pdf` (this paper) and `survey.pdf` — the companion taxonomy paper *"Agentic-SQL Taxonomy: The Research of Autonomous and Interactive Text-to-SQL with LLMs"* that introduces the autonomy-based classification this work builds on |
 
 ## Case Study Quickstart
 
