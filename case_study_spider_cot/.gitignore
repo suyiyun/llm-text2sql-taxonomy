@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# API keys / secrets
+.env
+*.env
+secrets.json
+api_keys.json
+
+# Large model outputs / checkpoints
+*.bin
+*.safetensors
+output/
+checkpoints/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,12 @@
+### LoRA合并配置 - 将LoRA权重合并到基座模型（Spider）
+model_name_or_path: /root/models/Qwen/Qwen3-8B
+adapter_name_or_path: /root/autodl-tmp/qwen3_8b_text2sql_cot_spider
+template: qwen3
+finetuning_type: lora
+trust_remote_code: true
+
+### Export（写到数据盘）
+export_dir: /root/autodl-tmp/qwen3_8b_spider_merged
+export_size: 5
+export_device: cpu
+export_legacy_format: false

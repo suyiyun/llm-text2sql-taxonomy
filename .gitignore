@@ -1,0 +1,37 @@
+# --- Spider raw data & generated pipeline artifacts (large, regenerable) ---
+# Download Spider from https://yale-lily.github.io/spider instead of committing it.
+case_study_spider_cot/spider_data/
+case_study_spider_cot/processed_data/
+case_study_spider_cot/sft_data/
+case_study_spider_cot/outcome/
+
+# Fine-tuned model weights / LoRA adapters / checkpoints
+case_study_spider_cot/*checkpoint*/
+case_study_spider_cot/output*/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Secrets / local config
+.env
+*.env.local
+**/api_key*
+**/*_key.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Logs / experiment tracking
+wandb/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

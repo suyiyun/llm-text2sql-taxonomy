@@ -1,0 +1,12 @@
+### LoRA合并配置 - LLaMA3.1-8B No CoT (Spider)
+model_name_or_path: /root/autodl-tmp/models/meta-llama/Meta-Llama-3.1-8B-Instruct
+adapter_name_or_path: /root/autodl-tmp/llama31_8b_text2sql_nocot_spider
+template: llama3
+finetuning_type: lora
+trust_remote_code: true
+
+### Export
+export_dir: /root/autodl-tmp/llama31_8b_spider_nocot_merged
+export_size: 5
+export_device: cpu
+export_legacy_format: false
