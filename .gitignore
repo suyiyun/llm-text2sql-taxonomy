@@ -5,6 +5,13 @@ case_study_spider_cot/processed_data/
 case_study_spider_cot/sft_data/
 case_study_spider_cot/outcome/
 
+# --- Taxonomy ablation (L1/L2/L3 controlled-backbone experiment): regenerable
+# sample subsets and LLM run outputs, and BIRD data once it's downloaded ---
+case_study_taxonomy_ablation/samples/
+case_study_taxonomy_ablation/outcome/
+case_study_taxonomy_ablation/bird_data/
+case_study_taxonomy_ablation/processed_data/
+
 # Fine-tuned model weights / LoRA adapters / checkpoints
 case_study_spider_cot/*checkpoint*/
 case_study_spider_cot/output*/
